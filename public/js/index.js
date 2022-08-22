@@ -11,6 +11,13 @@ class Sprite {
     this.position = position;
 
   }
+
+  draw() {
+    c.fillStyle = "red";
+    c.fillRect(this.position.x, this.position.y, 60, 150);
+  }
 }
 
 const player = new Sprite({x: 0, y: 0});
+
+player.draw();
