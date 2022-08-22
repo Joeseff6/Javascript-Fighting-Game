@@ -6,6 +6,7 @@ canvas.height = 576;
 
 c.fillRect(0, 0, canvas.width, canvas.height);
 
+const gravity = 0.2;
 class Sprite {
   constructor({position, velocity}) {
     this.position = position;
